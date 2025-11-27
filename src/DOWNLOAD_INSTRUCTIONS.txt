@@ -1,0 +1,259 @@
+═══════════════════════════════════════════════════════════════
+  📥 HOW TO DOWNLOAD THIS PROJECT FROM FIGMA MAKE
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT: Follow these steps carefully to download all files!
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 1: LOCATE THE DOWNLOAD BUTTON                          │
+└──────────────────────────────────────────────────────────────┘
+
+Look for one of these options (usually at top-right):
+
+  • "Download" button
+  • "Export" button  
+  • "Download ZIP" option
+  • Three-dot menu (...) → Download
+  • File menu → Export → Download
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 2: DOWNLOAD OPTIONS                                    │
+└──────────────────────────────────────────────────────────────┘
+
+When download dialog appears, choose:
+
+  ✓ Download as ZIP file (if available)
+  ✓ Export entire project
+  ✓ Include all files and folders
+  ✓ Download source code
+
+  ✗ Don't choose "Code only" 
+  ✗ Don't choose "Build output only"
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 3: DOWNLOAD PROCESS                                    │
+└──────────────────────────────────────────────────────────────┘
+
+After clicking download:
+
+  → Browser may ask "Save as..."
+  → Choose a location you remember (e.g., Downloads)
+  → Wait for download to complete
+  → File size should be several MB (5-20 MB typically)
+  → If too small (< 1 MB), something went wrong
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 4: VERIFY DOWNLOAD                                     │
+└──────────────────────────────────────────────────────────────┘
+
+Check your Downloads folder:
+
+  ✓ You should see: eazypg-booking-platform.zip
+     (or similar name)
+  ✓ File size: 5-20 MB (approximate)
+  ✓ File type: ZIP archive
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 5: EXTRACT THE ZIP FILE                                │
+└──────────────────────────────────────────────────────────────┘
+
+On Windows:
+  1. Right-click the ZIP file
+  2. Click "Extract All..."
+  3. Choose destination (e.g., C:\Projects\)
+  4. Click "Extract"
+
+On Mac:
+  1. Double-click the ZIP file
+  2. It extracts automatically
+  3. Move folder to desired location
+
+On Linux:
+  1. Right-click → "Extract Here"
+  OR
+  2. Terminal: unzip eazypg-booking-platform.zip
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 6: VERIFY EXTRACTED FOLDER                             │
+└──────────────────────────────────────────────────────────────┘
+
+After extraction, you should have a folder containing:
+
+  📁 eazypg-booking-platform/
+     ├── 📁 src/
+     ├── 📁 .vscode/
+     ├── 📄 package.json
+     ├── 📄 index.html
+     ├── 📄 vite.config.ts
+     ├── 📄 README.md
+     └── ... (many more files)
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  ALTERNATIVE: MANUAL FILE DOWNLOAD                           │
+└──────────────────────────────────────────────────────────────┘
+
+If ZIP download is not available:
+
+You may need to download files individually:
+
+  1. Create folder: eazypg-booking-platform/
+  
+  2. Download these CRITICAL files first:
+     • package.json
+     • index.html
+     • vite.config.ts
+     • tsconfig.json
+  
+  3. Create folders and download:
+     • src/ folder with all .tsx files
+     • src/components/ with all components
+     • src/styles/ with globals.css
+     • .vscode/ folder with settings
+  
+  4. Download all other config files
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  FIGMA MAKE SPECIFIC INSTRUCTIONS                            │
+└──────────────────────────────────────────────────────────────┘
+
+In Figma Make interface:
+
+  1. Look for "Export" or "Download" button
+  2. May be in top-right corner
+  3. Or in hamburger menu (☰)
+  4. Or under File → Export
+  5. Choose "Download as ZIP" if available
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  WHAT FILES MUST BE DOWNLOADED                               │
+└──────────────────────────────────────────────────────────────┘
+
+CRITICAL FILES (Must have):
+  ✓ package.json
+  ✓ src/App.tsx
+  ✓ src/main.tsx
+  ✓ src/components/ (entire folder)
+  ✓ src/styles/globals.css
+  ✓ index.html
+  ✓ vite.config.ts
+  ✓ tsconfig.json
+
+IMPORTANT FILES (Highly recommended):
+  ✓ README.md
+  ✓ SETUP_GUIDE.md
+  ✓ HOW_TO_DOWNLOAD.md
+  ✓ All other .md files
+  ✓ .vscode/ folder
+  ✓ Quick start scripts
+
+OPTIONAL FILES (Nice to have):
+  ✓ .eslintrc.cjs
+  ✓ .gitignore
+  ✓ postcss.config.js
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  AFTER DOWNLOAD - NEXT STEPS                                 │
+└──────────────────────────────────────────────────────────────┘
+
+Once you have all files:
+
+  1. ✅ Open folder in VS Code
+  2. ✅ Install Node.js (if not installed)
+  3. ✅ Open terminal in VS Code
+  4. ✅ Run: npm install
+  5. ✅ Run: npm run dev
+  6. ✅ Open browser to: localhost:5173
+
+  → See SETUP_GUIDE.md for detailed instructions
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  TROUBLESHOOTING DOWNLOAD ISSUES                             │
+└──────────────────────────────────────────────────────────────┘
+
+Problem: Can't find download button
+Solution: Look for Export, Save, or Share options
+
+Problem: Downloaded file is too small
+Solution: You may have downloaded a single file, not the 
+         entire project. Try again and select "all files"
+
+Problem: ZIP file won't extract
+Solution: File may be corrupted. Download again or try
+         different extraction tool (7-Zip, WinRAR)
+
+Problem: Missing files after extraction
+Solution: Make sure you extracted the entire ZIP contents,
+         not just some files
+
+Problem: Can't download ZIP format
+Solution: Download files individually and recreate folder
+         structure manually
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  VERIFICATION CHECKLIST                                      │
+└──────────────────────────────────────────────────────────────┘
+
+Before proceeding to setup, verify:
+
+  ☐ Downloaded complete project
+  ☐ Extracted ZIP file
+  ☐ Have folder named "eazypg-booking-platform"
+  ☐ Folder contains package.json
+  ☐ Folder contains src/ directory
+  ☐ src/ contains App.tsx and main.tsx
+  ☐ src/components/ has multiple .tsx files
+  ☐ Have documentation files (.md files)
+
+If all checked → Proceed to SETUP_GUIDE.md
+If missing items → Re-download project
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  NEED MORE HELP?                                             │
+└──────────────────────────────────────────────────────────────┘
+
+After downloading:
+  → Read: HOW_TO_DOWNLOAD.md (detailed guide)
+  → Read: DOWNLOAD_CHECKLIST.md (verify files)
+  → Read: SETUP_GUIDE.md (installation steps)
+
+Still stuck?
+  → Check if all files downloaded
+  → Try downloading again
+  → Verify ZIP file size (should be 5+ MB)
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║  Once downloaded successfully, open:                         ║
+║  → START_HERE.md (for next steps)                            ║
+║  → SETUP_GUIDE.md (for installation)                         ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+QUICK SUMMARY:
+═══════════════
+
+1. Click Download/Export button
+2. Save ZIP file
+3. Extract ZIP to folder
+4. Verify files are present
+5. Open START_HERE.md for next steps
+6. Follow SETUP_GUIDE.md to install and run
+
+
+═══════════════════════════════════════════════════════════════
+  Good luck! You're one download away from running Eazypg! 🚀
+═══════════════════════════════════════════════════════════════

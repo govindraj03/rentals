@@ -1,0 +1,58 @@
+═══════════════════════════════════════════════════════════════
+  EAZYPG - Installation Instructions
+═══════════════════════════════════════════════════════════════
+
+BEFORE YOU START:
+✓ Make sure Node.js is installed (download from nodejs.org)
+✓ Open this folder in VS Code
+
+STEP-BY-STEP INSTALLATION:
+
+1. Open Terminal in VS Code
+   - Press: Ctrl + ` (backtick key, usually above Tab)
+   OR
+   - Click: Terminal → New Terminal (from top menu)
+
+2. Install Dependencies
+   Copy and paste this command, then press Enter:
+   
+   npm install
+
+   Wait 2-5 minutes for installation to complete.
+
+3. Start the Development Server
+   Copy and paste this command, then press Enter:
+   
+   npm run dev
+
+4. Open in Browser
+   - Hold Ctrl (or Cmd on Mac) and click: http://localhost:5173/
+   OR
+   - Open browser and type: http://localhost:5173/
+
+═══════════════════════════════════════════════════════════════
+  THAT'S IT! You should now see the Eazypg website! 🎉
+═══════════════════════════════════════════════════════════════
+
+USEFUL COMMANDS:
+
+  npm run dev      → Start development server
+  npm run build    → Build for production
+  Ctrl + C         → Stop the server
+
+TROUBLESHOOTING:
+
+  Problem: "npm: command not found"
+  Solution: Install Node.js from nodejs.org
+
+  Problem: White blank screen
+  Solution: Check browser console (F12) for errors
+
+  Problem: Module errors
+  Solution: Delete node_modules folder and run "npm install" again
+
+═══════════════════════════════════════════════════════════════
+
+Need detailed help? Check README.md or SETUP_GUIDE.md
+
+Happy Coding! 🚀

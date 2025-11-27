@@ -1,0 +1,157 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║              EAZYPG - QUICK START REFERENCE                  ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 1: DOWNLOAD THE PROJECT                                │
+└──────────────────────────────────────────────────────────────┘
+  
+  → Look for "Download" or "Export" button
+  → Download as ZIP file
+  → Extract to a folder (e.g., C:\Projects\)
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 2: OPEN IN VS CODE                                     │
+└──────────────────────────────────────────────────────────────┘
+  
+  → Open VS Code
+  → File → Open Folder
+  → Select: eazypg-booking-platform
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 3: INSTALL NODE.JS (if needed)                         │
+└──────────────────────────────────────────────────────────────┘
+  
+  → Go to: nodejs.org
+  → Download LTS version
+  → Install and restart computer
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 4: OPEN TERMINAL IN VS CODE                            │
+└──────────────────────────────────────────────────────────────┘
+  
+  → Press: Ctrl + ` (backtick key)
+  OR
+  → Menu: Terminal → New Terminal
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 5: INSTALL DEPENDENCIES                                │
+└──────────────────────────────────────────────────────────────┘
+  
+  Type in terminal:
+  
+  ┌────────────────────────────────────────────────────────────┐
+  │  npm install                                               │
+  └────────────────────────────────────────────────────────────┘
+  
+  ⏱  Wait 2-5 minutes...
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 6: START THE SERVER                                    │
+└──────────────────────────────────────────────────────────────┘
+  
+  Type in terminal:
+  
+  ┌────────────────────────────────────────────────────────────┐
+  │  npm run dev                                               │
+  └────────────────────────────────────────────────────────────┘
+
+
+┌──────────────────────────────────────────────────────────────┐
+│  STEP 7: OPEN IN BROWSER                                     │
+└──────────────────────────────────────────────────────────────┘
+  
+  → Ctrl + Click: http://localhost:5173/
+  OR
+  → Open browser and type: localhost:5173
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                  🎉 YOU'RE DONE! 🎉                          ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  USEFUL COMMANDS                                             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+  npm run dev       →  Start development server
+  npm run build     →  Build for production
+  npm run preview   →  Preview production build
+  Ctrl + C          →  Stop the server
+  Ctrl + S          →  Save file (auto-reload in browser)
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  TROUBLESHOOTING                                             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+  Problem: "npm: command not found"
+  Fix: Install Node.js from nodejs.org
+
+  Problem: Blank screen
+  Fix: Press F12 in browser, check Console tab
+
+  Problem: Module errors
+  Fix: Delete node_modules folder, run npm install again
+
+  Problem: Port already in use
+  Fix: Vite will use next available port automatically
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  FILE STRUCTURE CHECK                                        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+  Make sure you have:
+  ✓ src/ folder
+  ✓ package.json
+  ✓ index.html
+  ✓ vite.config.ts
+  ✓ tsconfig.json
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  WINDOWS USERS - SUPER QUICK START                           ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+  Just double-click:  START_HERE_WINDOWS.bat
+
+  It will automatically:
+  • Install dependencies
+  • Start the server
+  • Open in browser
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  MAC/LINUX USERS - SUPER QUICK START                         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+  In terminal:
+  chmod +x START_HERE_MAC_LINUX.sh
+  ./START_HERE_MAC_LINUX.sh
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  MORE HELP?                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+  📖 README.md           - Complete documentation
+  📖 SETUP_GUIDE.md      - Detailed setup guide
+  📖 HOW_TO_DOWNLOAD.md  - Download instructions
+  📖 PROJECT_INFO.md     - Project information
+  📖 INSTALLATION.txt    - Quick installation steps
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║         🚀 Happy Coding! Visit localhost:5173 🚀             ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
